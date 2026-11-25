@@ -10,7 +10,7 @@ EXCLUDED_CATEGORIES = {"pricing", "account"}
 
 # How long a cached answer stays valid, in hours.
 TTL_HOURS = {
-    "faq": 24,
+    "faq": 168,  # 7 days: FAQs rarely change
     "default": 24,
 }
 
